@@ -1,15 +1,11 @@
 export const metadata = {
   title: 'TikTok Splitter',
-  description: 'Pecah skrip jadi hook, value, cta',
+  description: 'Split video for TikTok',
 }
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+ 
+export default function RootLayout({ children }) {
   return (
-    <html lang="id">
+    <html lang="en">
       <body>{children}</body>
     </html>
   )
